@@ -1,0 +1,133 @@
+main {
+    background-color: #7e735f;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    color: #f2e16b;
+    padding-top: 30px;
+    font-size: 60px;
+    font-weight: 100;
+}
+ 
+.sub-title {
+    text-align: center;
+    /* margin-top: 50px; */
+    font-family: 'Pacifico', sans-serif;
+    margin-bottom: 50px;
+    color: #f2e16b;
+}
+
+#desc_title {
+    margin-bottom: 20px;
+}
+
+/* Component 1 */
+#page1 {
+    margin-bottom: 40px;
+}
+#quote_page1 {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    font-weight: 200;
+    font-size: 30px;
+    
+}
+.desc1 {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+.img1 {
+    height: auto;
+}
+.col-md-8 {
+    display: flex; /* Sử dụng flexbox */
+    flex-direction: column; /* Đặt chiều dọc cho cột */
+}
+.desc2 {
+    margin-top: 15px; /* Khoảng cách giữa hình ảnh và đoạn văn */
+    flex-grow: 1; /* Cho phép văn bản chiếm không gian còn lại */
+}
+
+#img_page1 {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của cột */
+    height: auto; /* Tự động điều chỉnh chiều cao */
+}
+
+/* Component 2 */
+#page2 {
+    margin-bottom: 40px;
+}
+.desc2 {
+    margin-top: 20px;
+    text-align: justify;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+#quote_page2 {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+/* Component 3 */
+#page2 {
+    margin-bottom: 40px;
+}
+.desc3 {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+
+}
+#quote_page3 {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+#quote_page4 {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    font-weight: 200;
+    font-size: 26px;
+}
+
+#page3_title {
+    text-align: center;
+    font-size: 35px;
+}
+
+#img_group {
+    margin-bottom: 40px;
+}
+
+#quote_page5 {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    font-weight: 200;
+    font-size: 26px;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+footer a {
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffdd57;
+}
